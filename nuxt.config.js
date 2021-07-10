@@ -68,7 +68,7 @@ export default {
 
     // module settings
     styleResources: {
-        scss: ["@/assets/styles/_base.scss"],
+        scss: [],
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
