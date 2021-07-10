@@ -11,7 +11,7 @@
 <style lang="scss" scoped>
 .user_count {
     --border-radius-size: 11px;
-    width: 100%;
+    width: 85%;
     background: var(--bg-secondary);
     padding: 9px 10px;
     border-radius: var(--border-radius-size);

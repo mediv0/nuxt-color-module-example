@@ -4,7 +4,7 @@
             <img src="~/assets/images/logo.png" alt="chill club logo" />
         </div>
         <ul class="side_nav__menu">
-            <nuxt-link v-for="(item, i) in menuItems" :key="i" :to="item.route" tag="li" class="side_nav__menu__item" exact>
+            <nuxt-link v-for="(item, i) in menuItems" :key="i" :to="item.route" tag="li" class="side_nav__menu__item" exact :tabindex="i+1">
                 <div class="side_nav__menu__item__icons noselect">
                     <img :src="item.img" alt="homepage" class="fit-parent" />
                 </div>
@@ -62,10 +62,9 @@ export default {
 
 <style lang="scss" scope>
 .side_nav {
-    width: 149px;
+    width: 170px;
     display: flex;
     flex-direction: column;
-    padding: var(--vertical-layout-padding);
     &__logo {
         display: inline-block;
     }
