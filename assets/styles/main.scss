@@ -44,7 +44,7 @@
 
 .layoutContainer {
     @extend .center-horizontal;
-    width: var(--layout-container);
+    max-width: var(--layout-container);
 }
 
 .noevents {

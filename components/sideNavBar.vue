@@ -62,7 +62,7 @@ export default {
 
 <style lang="scss" scope>
 .side_nav {
-    width: 170px;
+    width: 204px;
     display: flex;
     flex-direction: column;
     &__logo {

@@ -13,7 +13,7 @@
     --border-radius-size: 11px;
     width: 85%;
     background: var(--bg-secondary);
-    padding: 9px 10px;
+    padding: 9px 20px;
     border-radius: var(--border-radius-size);
     font-size: 0.8rem;
     display: flex;
