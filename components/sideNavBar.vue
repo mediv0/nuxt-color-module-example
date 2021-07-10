@@ -1,5 +1,5 @@
 <template>
-    <div debug class="side_nav">
+    <div class="side_nav">
         <div class="side_nav__logo noselect">
             <img src="~/assets/images/logo.png" alt="chill club logo" />
         </div>
