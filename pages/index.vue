@@ -1,7 +1,15 @@
 <template>
-  <div>Online Radios to relax and chill</div>
+    <welcome />
 </template>
 
 <script>
-export default {}
+import welcome from "@/components/welcome.vue";
+export default {
+    // check if it's first login
+    // if not redirect to player
+    components: {
+        welcome,
+    },
+    layout: "noHeaders",
+};
 </script>

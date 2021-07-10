@@ -1,0 +1,22 @@
+.btn {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-blue);
+    border-radius: 14px;
+    padding: 18px 0 18px 0;
+}
+
+.btn:focus {
+    border: 2px solid var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-blue);
+
+    &:hover {
+        background-color: var(--primary-blue-darken);
+        border: 2px solid var(--primary-blue-darken);
+    }
+}

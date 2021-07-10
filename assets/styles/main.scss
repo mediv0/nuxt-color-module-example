@@ -1,4 +1,6 @@
+// global styles
 @import "base";
+@import "./components/buttons.scss";
 
 :root {
     --layout-container: 1236px;
@@ -6,6 +8,7 @@
     --font-family: "tt-hoves", sans-serif;
     --primary-color: #ffffff;
     --primary-blue: #3333fd;
+    --primary-blue-darken: #2b2bfc;
     --light-blue: #9797ff;
     --error-color: #fd5c5c;
     --success-color: #36f563;
