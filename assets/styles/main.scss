@@ -1,4 +1,7 @@
+@import "base";
+
 :root {
+    --layout-container: 1236px;
     --base-font-size: 14px;
     --font-family: "tt-hoves", sans-serif;
     --primary-color: #ffffff;
@@ -11,19 +14,50 @@
     --bg-light: #323337;
     --bg-very-light: #505152;
     // gray-scales
+    --gray-primary: #88898A;
+    // global-paddings
+    --vertical-layout-padding: 34px 0 28px 0;
 }
 
-@import "base";
+[debug],
+[debug] > * {
+    border: 1px solid red;
+}
 
 // global styles
-font-weight-light {
+.font-weight-light {
     font-weight: 300;
 }
 
-font-weight-normal {
+.font-weight-normal {
     font-weight: 400;
 }
 
-font-weight-medium {
+.font-weight-medium {
     font-weight: 500;
+}
+
+.center-horizontal {
+    margin: 0 auto;
+}
+
+.layoutContainer {
+    @extend .center-horizontal;
+    width: var(--layout-container);
+}
+
+.noevents {
+    pointer-events: none;
+}
+
+.noselect {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.fit-parent {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
