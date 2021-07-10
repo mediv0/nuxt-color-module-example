@@ -1,12 +1,12 @@
 module.exports = {
-  extends: [
-    'stylelint-config-standard',
-    'stylelint-config-prettier'
-  ],
-  // add your custom config here
-  // https://stylelint.io/user-guide/configuration
-  rules: {
-      "color-hex-length": "long",
-      "no-invalid-position-at-import-rule": "false"
-  }
-}
+    plugins: ["stylelint-scss"],
+    extends: ["stylelint-config-standard", "stylelint-config-prettier"],
+    // add your custom config here
+    // https://stylelint.io/user-guide/configuration
+    rules: {
+        "color-hex-length": "long",
+        "at-rule-no-unknown": null,
+        "at-rule-empty-line-before": "never",
+        "declaration-empty-line-before": "never",
+    },
+};
