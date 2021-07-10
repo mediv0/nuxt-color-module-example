@@ -1,17 +1,22 @@
 <template>
     <div class="main_layout layoutContainer">
         <side-nav-bar />
-        <Nuxt class="main_layout__content" />
+        <div class="main_layout__content">
+            <top-header />
+            <Nuxt />
+        </div>
     </div>
 </template>
 
 <script>
 import sideNavBar from "@/components/sideNavBar.vue";
+import topHeader from "@/components/header.vue";
 export default {
     components: {
-        sideNavBar
-    }
-}
+        sideNavBar,
+        topHeader,
+    },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -19,6 +24,7 @@ export default {
     display: flex;
     align-items: stretch;
     height: 100vh;
+    padding: var(--vertical-layout-padding);
 
     &__content {
         flex: 1;

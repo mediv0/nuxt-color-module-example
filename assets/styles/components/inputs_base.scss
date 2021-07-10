@@ -1,0 +1,23 @@
+.input {
+    border-radius: 14px;
+    border: 3px solid var(--primary-color);
+}
+
+.input input[type="text"] {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-weight: 300;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.input::placeholder {
+    color: var(--gray-secondary);
+    opacity: 1;
+}
+
+.input::-ms-placeholder {
+    color: var(--gray-secondary);
+}
