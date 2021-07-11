@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Lofi hip hop",
+        "thumbnail": "lofi.png",
+        "color": "#67A4FF"
+    },
+    {
+        "title": "Deep House",
+        "thumbnail": "deep.png",
+        "color": "#7673FE"
+    },
+    {
+        "title": "Retrowave",
+        "thumbnail": "retro.png",
+        "color": "#FFA133"
+    },
+    {
+        "title": "Jazz",
+        "thumbnail": "jaz.png",
+        "color": "#FF7449"
+    },
+    {
+        "title": "Sad & sleepy",
+        "thumbnail": "sad.png",
+        "color": "#FE5373"
+    }
+]
