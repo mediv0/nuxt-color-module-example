@@ -14,9 +14,9 @@
 import searchInput from "@/components/inputs/searchInput.vue";
 export default {
     components: {
-        searchInput
-    }
-}
+        searchInput,
+    },
+};
 </script>
 
 <style lang="scss" scoped>
