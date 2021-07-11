@@ -1,0 +1,21 @@
+:root {
+    --layout-container: 1236px;
+    --base-font-size: 14px;
+    --font-family: "tt-hoves", sans-serif;
+    // global-paddings
+    --vertical-layout-padding: 20px 0 28px 0;
+    --primary-color: #ffffff;
+    --primary-blue: #3333fd;
+    --primary-blue-darken: #2b2bfc;
+    --light-blue: #9797ff;
+    --error-color: #fd5c5c;
+    --success-color: #36f563;
+    --warning-color: #FFA133;
+    --bg-primary: #161819;
+    --bg-secondary: #252728;
+    --bg-light: #323337;
+    --bg-very-light: #505152;
+    // gray-scales
+    --gray-primary: #88898a;
+    --gray-secondary: #aeaeaf;
+}
