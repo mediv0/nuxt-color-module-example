@@ -26,5 +26,6 @@ export default {
     min-width: 204px;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 </style>

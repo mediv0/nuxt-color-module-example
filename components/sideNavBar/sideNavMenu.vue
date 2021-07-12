@@ -58,6 +58,7 @@ export default {
 .side_nav__menu {
     margin-top: 40px;
     margin-bottom: auto;
+    min-height: 350px;
 }
 .side_nav__menu__item {
     display: flex;
