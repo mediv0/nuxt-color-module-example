@@ -21,6 +21,8 @@ export default {
 
 <style lang="scss" scope>
 .side_nav {
+    position: fixed;
+    height: 95vh;
     min-width: 204px;
     display: flex;
     flex-direction: column;

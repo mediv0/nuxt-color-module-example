@@ -22,14 +22,13 @@ export default {
 <style lang="scss" scoped>
 .main_layout {
     display: flex;
-    align-items: stretch;
-    height: 100vh;
     padding: var(--vertical-layout-padding);
 
     &__content {
         flex: 1;
         max-width: 100%;
         overflow: hidden;
+        padding-left: 204px;
     }
 }
 </style>
