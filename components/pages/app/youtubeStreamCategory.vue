@@ -112,27 +112,17 @@ export default {
             position: absolute;
             width: 100%;
             height: 273px;
-            bottom: -123px;
+            bottom: -90px;
+            transition: 0.3s ease;
 
             & > img {
                 object-fit: contain;
             }
-
-            &--1 {
-                height: 203px;
-                bottom: -67px;
-            }
-
-            &--2 {
-                height: 355px;
-                bottom: -123px;
-            }
-
-            &--3,
-            &--4 {
-                bottom: -139px;
-            }
         }
     }
+}
+
+.categories__list__item__content:hover .categories__list__item__content__img {
+    bottom: -80px;
 }
 </style>
