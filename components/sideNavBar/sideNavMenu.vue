@@ -15,7 +15,7 @@ export default {
     components: {
         Homepage: () => import("@/assets/images/side_nav_menu/homepage.svg?inline"),
         Tracks: () => import("@/assets/images/side_nav_menu/tracks.svg?inline"),
-        "Movie theater": () => import("@/assets/images/side_nav_menu/video.svg?inline"),
+        Theater: () => import("@/assets/images/side_nav_menu/video.svg?inline"),
         Productivity: () => import("@/assets/images/side_nav_menu/productivity.svg?inline"),
         Bookmarks: () => import("@/assets/images/side_nav_menu/bookmarks.svg?inline"),
         Shortcuts: () => import("@/assets/images/side_nav_menu/shortcuts.svg?inline"),
@@ -32,7 +32,7 @@ export default {
                     route: "/1",
                 },
                 {
-                    title: "Movie theater",
+                    title: "Theater",
                     route: "/2",
                 },
                 {
