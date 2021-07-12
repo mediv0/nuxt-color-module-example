@@ -27,7 +27,6 @@ export default {
     &__content {
         flex: 1;
         max-width: 100%;
-        overflow: hidden;
         padding-left: 204px;
     }
 }

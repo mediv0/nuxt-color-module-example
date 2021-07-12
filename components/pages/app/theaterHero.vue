@@ -24,12 +24,12 @@ export default {};
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px 10px 20px;
+    padding: 0 30px 50px 20px;
 
     &__img {
         width: 623px;
         height: 300px;
-        background: var(--bg-primary);
+        background: var(--bg-secondary);
         border-radius: 40px;
         overflow: hidden;
     }

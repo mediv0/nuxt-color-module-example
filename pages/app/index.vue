@@ -2,16 +2,19 @@
     <div class="main_app">
         <stream-list />
         <theaterHero />
+        <tracks />
     </div>
 </template>
 
 <script>
 import youtubeStreamCategory from "~/components/pages/app/youtubeStreamCategory.vue";
 import theaterHero from "~/components/pages/app/theaterHero.vue";
+import tracks from "~/components/tracks/tracks.vue";
 export default {
     components: {
         streamList: youtubeStreamCategory,
-        theaterHero
+        theaterHero,
+        tracks,
     },
     layout: "default",
 };
