@@ -3,7 +3,7 @@
         <div class="single_track__img">
             <img src="https://wallpaperaccess.com/full/5759679.jpg" loading="lazy" class="fit-parent">
         </div>
-        <h6 class="single_track__title">lofi songs for slow days</h6>
+        <h6 class="single_track__title">radio song for you slow days</h6>
         <p class="single_track__duration">18:59</p>
     </div>
 </template>
@@ -33,6 +33,9 @@ export default {};
     &__title {
         font-weight: 500;
         font-size: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     &__duration {
