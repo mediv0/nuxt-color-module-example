@@ -5,7 +5,7 @@
             <nuxt-link v-for="(cat, i) in categories" :key="i" to="/" tag="li" class="categories__list__item" :style="{ backgroundColor: cat.color }">
                 <div class="categories__list__item__glow" :style="{ backgroundColor: cat.color }"></div>
                 <div class="categories__list__item__content">
-                    <p :style="{ color: cat.title === 'Retrowave' && '#000000' }">{{ cat.title }}</p>
+                    <p :style="{ color: cat.title === 'Retrowave' ? '#000000' : '#ffffff' }">{{ cat.title }}</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 12.879 9.692">
                         <g transform="translate(0 -2.569)">
                             <g transform="translate(0 2.569)">
@@ -58,7 +58,6 @@ export default {
     }
 
     &__list {
-        fill: aliceblue;
         display: flex;
         align-items: center;
         justify-content: space-between;

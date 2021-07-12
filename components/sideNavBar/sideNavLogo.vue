@@ -1,0 +1,33 @@
+<template>
+    <div class="side_nav__logo noselect">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="46" viewBox="0 0 90 46">
+            <g transform="translate(-435 -517)">
+                <text transform="translate(499 539)" :fill="$colorMode.preference === 'light' ? '#000000' : '#ffffff'" font-size="23" font-family="TTHoves-ExtraBold, TT Hoves" font-weight="800">
+                    <tspan x="-25.128" y="0">Chill</tspan>
+                    <tspan x="-25.99" y="19">Club</tspan>
+                </text>
+                <g transform="translate(424.21 398.51)">
+                    <g transform="translate(10.79 130.47)">
+                        <path d="M21.46,130.47H26.8a10.475,10.475,0,0,1,10.67,10.273v5.137A10.475,10.475,0,0,1,26.8,156.154H21.46A10.475,10.475,0,0,1,10.79,145.88v-5.137A10.475,10.475,0,0,1,21.46,130.47Z" transform="translate(-10.79 -130.47)" fill="none" />
+                        <path d="M26.8,156.154H21.46A10.492,10.492,0,0,1,10.79,145.88v-5.137A10.492,10.492,0,0,1,21.46,130.47H26.8a10.492,10.492,0,0,1,10.67,10.273v5.137A10.492,10.492,0,0,1,26.8,156.154ZM21.46,134.965a5.9,5.9,0,0,0-6,5.779v5.137a5.9,5.9,0,0,0,6,5.779H26.8a5.9,5.9,0,0,0,6-5.779v-5.137a5.9,5.9,0,0,0-6-5.779Z" transform="translate(-10.79 -130.47)" fill="#668df9" />
+                    </g>
+                    <g transform="translate(10.79 127.49)">
+                        <path d="M19.46,127.49H28.8a8.513,8.513,0,0,1,8.67,8.347v8.989a8.513,8.513,0,0,1-8.67,8.347H19.46a8.513,8.513,0,0,1-8.67-8.347v-8.989A8.513,8.513,0,0,1,19.46,127.49Z" transform="translate(-10.79 -127.49)" fill="none" />
+                        <path
+                            d="M28.8,153.174H19.46a8.521,8.521,0,0,1-8.67-8.347v-8.989a8.521,8.521,0,0,1,8.67-8.347H28.8a8.521,8.521,0,0,1,8.67,8.347v8.989A8.521,8.521,0,0,1,28.8,153.174ZM19.46,131.985a3.932,3.932,0,0,0-4,3.853v8.989a3.932,3.932,0,0,0,4,3.853H28.8a3.932,3.932,0,0,0,4-3.853v-8.989a3.932,3.932,0,0,0-4-3.853Z"
+                            transform="translate(-10.79 -127.49)"
+                            fill="#ff5f5f"
+                            style="mix-blend-mode: lighten; isolation: isolate"
+                        />
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+.side_nav__logo {
+    display: inline-block;
+}
+</style>

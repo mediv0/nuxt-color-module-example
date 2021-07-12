@@ -25,7 +25,19 @@ export default {
         // https://go.nuxtjs.dev/stylelint
         "@nuxtjs/stylelint-module",
         "@nuxtjs/style-resources",
+        "@nuxtjs/color-mode",
+        "@nuxtjs/svg",
     ],
+
+    colorMode: {
+        preference: "dark", // default value of $colorMode.preference
+        fallback: "dark", // fallback value if not system preference found
+        hid: "nuxt-color-mode-script",
+        globalName: "__NUXT_COLOR_MODE__",
+        classPrefix: "",
+        classSuffix: "-mode",
+        storageKey: "nuxt-color-mode",
+    },
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [

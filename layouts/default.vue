@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import sideNavBar from "@/components/sideNavBar.vue";
+import sideNavBar from "@/components/sideNavBar/sideNavBar.vue";
 import topHeader from "@/components/header.vue";
 export default {
     components: {

@@ -14,7 +14,8 @@ body {
     font-family: var(--font-family);
     font-weight: 400;
     background: var(--bg-primary);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    transition: background-color 0.3s ease;
 }
 
 *,
