@@ -11,7 +11,9 @@
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "prepare": "husky install",
     "lint": "yarn lint:js && yarn lint:style",
-    "test": "jest"
+    "test": "jest",
+    "static": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
@@ -44,6 +46,7 @@
     "jest": "^27.0.5",
     "lint-staged": "^10.5.4",
     "prettier": "^2.3.2",
+    "push-dir": "^0.4.1",
     "sass": "^1.35.2",
     "sass-loader": "^10.1.1",
     "stylelint": "^13.13.1",
