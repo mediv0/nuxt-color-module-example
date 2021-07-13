@@ -1,6 +1,12 @@
-# Chill Club
-a place to chill and listen to musics & watch videos with friends 
+### nuxt color module example
 
-### [ UNDER DEVELOPMENT }
+![preview](https://i.imgur.com/3cWj89B.png)
 
-![preview](https://i.imgur.com/MyC8aUd.png)
+
+```
+yarn install
+```
+
+```
+yarn dev
+```
